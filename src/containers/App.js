@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AwesomeBar from '../components/AwesomeBar'
+import TimeTable from '../components/TimeTable'
 import * as Actions from '../actions'
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
@@ -16,6 +17,7 @@ class App extends Component {
       <MuiThemeProvider muiTheme={getMuiTheme()}>
         <div>
           <AwesomeBar place={place} selectPlace={actions.selectPlace} />
+          <TimeTable place={place} date={date} />
         </div>
       </MuiThemeProvider>
     )
