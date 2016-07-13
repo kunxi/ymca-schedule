@@ -17,7 +17,8 @@ class App extends Component {
       <MuiThemeProvider muiTheme={getMuiTheme()}>
         <div>
           <AwesomeBar place={place} selectPlace={actions.selectPlace} />
-          <TimeTable place={place} date={date} />
+          <TimeTable place={place} date={date}
+           nextDay={actions.nextDay} previousDay={actions.previousDay} />
         </div>
       </MuiThemeProvider>
     )
