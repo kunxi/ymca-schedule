@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react'
+import BigDate from './BigDate'
 
 
 // https://css-tricks.com/absolute-positioning-inside-relative-positioning/
@@ -63,6 +64,7 @@ export default class TimeTable extends Component {
 
     return (
       <div style={divStyle}>
+        <BigDate date={date} />
         <table style={tableStyle}>
           <tbody>
             {labels.map(label =>
