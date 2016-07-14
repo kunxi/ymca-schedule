@@ -1,0 +1,408 @@
+{
+  "gymnasium": {
+    "Monday": [
+      {
+        "title": "Adult Badminton(16+)",
+        "start": 5,
+        "end": 9.5,
+        "width": 0.5
+      },
+      {
+        "title": "Family Recess",
+        "start": 9.75,
+        "end": 10.75,
+        "width": 0.5
+      },
+      {
+        "title": "Zumba Gold(Vicki)",
+        "start": 11,
+        "end": 11.917,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 12,
+        "end": 13,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Open Gym",
+        "start": 13,
+        "end": 18.5,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Badminton",
+        "start": 13,
+        "end": 22,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 5,
+        "end": 6.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Summer Camp",
+        "start": 6.5,
+        "end": 18.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Teen Basketball(14+)",
+        "start": 18.5,
+        "end": 22,
+        "left": 0.5,
+        "width": 0.5
+      }
+    ],
+    "Tuesday": [
+      {
+        "title": "Adult Pickleball(16+)",
+        "start": 5,
+        "end": 9.5,
+        "width": 0.5
+      },
+      {
+        "title": "Turbo Kick(Aimee)",
+        "start": 9.75,
+        "end": 10.75,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 11,
+        "end": 13,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Open Gym",
+        "start": 13,
+        "end": 15,
+        "width": 0.5
+      },
+      {
+        "title": "Middle School Bastetball(11-14)",
+        "start": 15,
+        "end": 19,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Volleyball(16+)",
+        "start": 19,
+        "end": 22,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 5,
+        "end": 6.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Summer Camp",
+        "start": 6.5,
+        "end": 18.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Volleyball(16+)",
+        "start": 18.5,
+        "end": 22,
+        "left": 0.5,
+        "width": 0.5
+      }
+    ],
+    "Wednesday": [
+      {
+        "title": "Adult Badminton(16+)",
+        "start": 5,
+        "end": 9.5,
+        "width": 0.5
+      },
+      {
+        "title": "Family Recess",
+        "start": 9.75,
+        "end": 10.75,
+        "width": 0.5
+      },
+      {
+        "title": "Bootcamp(Cory)",
+        "start": 11,
+        "end": 12.5,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Open Gym",
+        "start": 12.5,
+        "end": 19.5,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 19.5,
+        "end": 22,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 5,
+        "end": 6.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Summer Camp",
+        "start": 6.5,
+        "end": 18.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Teen Basketball(14+)",
+        "start": 18.5,
+        "end": 22,
+        "left": 0.5,
+        "width": 0.5
+      }
+    ],
+    "Thursday": [
+      {
+        "title": "Adult Pickleball(16+)",
+        "start": 5,
+        "end": 9.5,
+        "width": 0.5
+      },
+      {
+        "title": "Zumba(Rachel)",
+        "start": 9.75,
+        "end": 10.75,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 11,
+        "end": 13,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Open Gym",
+        "start": 13,
+        "end": 15,
+        "width": 0.5
+      },
+      {
+        "title": "Middle School Bastetball(11-14)",
+        "start": 15,
+        "end": 19,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Volleyball(16+)",
+        "start": 19,
+        "end": 22,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 5,
+        "end": 6.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Summer Camp",
+        "start": 6.5,
+        "end": 18.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Volleyball(16+)",
+        "start": 19,
+        "end": 22,
+        "left": 0.5,
+        "width": 0.5
+      }
+    ],
+    "Friday": [
+      {
+        "title": "Adult Badminton(16+)",
+        "start": 5,
+        "end": 9.5,
+        "width": 0.5
+      },
+      {
+        "title": "Zumba Tone(Shanyn)",
+        "start": 9.75,
+        "end": 10.75,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 11,
+        "end": 13,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Open Gym",
+        "start": 13,
+        "end": 17,
+        "width": 0.5
+      },
+      {
+        "title": "Rotating Family/Teen Events",
+        "start": 15,
+        "end": 22,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 5,
+        "end": 6.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Summer Camp",
+        "start": 6.5,
+        "end": 9.75,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Youth Sports programming",
+        "start": 9.75,
+        "end": 10.75,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Summer Camp",
+        "start": 10.75,
+        "end": 18.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Teen Open Gym(11-16)",
+        "start": 18.5,
+        "end": 22,
+        "left": 0.5,
+        "width": 0.5
+      }
+    ],
+    "Saturday": [
+      {
+        "title": "Closed",
+        "start": 5,
+        "end": 8
+      },
+      {
+        "title": "All Ages Open Gym",
+        "start": 8,
+        "end": 9,
+        "width": 0.5
+      },
+      {
+        "title": "Zumba(Clairissa)",
+        "start": 9.5,
+        "end": 10.5,
+        "width": 0.5
+      },
+      {
+        "title": "Family Recess",
+        "start": 12,
+        "end": 13,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Badminton",
+        "start": 13.5,
+        "end": 16,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Volleyball",
+        "start": 16,
+        "end": 17.5,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 8,
+        "end": 9,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Teen Basketball(14+)",
+        "start": 12,
+        "end": 18,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Adult Basketball(16+)",
+        "start": 17,
+        "end": 18,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Closed",
+        "start": 18,
+        "end": 22
+      }
+    ],
+    "Sunday": [
+      {
+        "title": "Closed",
+        "start": 5,
+        "end": 8
+      },
+      {
+        "title": "All Ages Badminton",
+        "start": 8,
+        "end": 12,
+        "width": 0.5
+      },
+      {
+        "title": "Family Recess",
+        "start": 12,
+        "end": 13,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Open Gym",
+        "start": 13,
+        "end": 18,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Pickletball",
+        "start": 8,
+        "end": 12,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "All Ages Open Gym",
+        "start": 12,
+        "end": 18,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Closed",
+        "start": 18,
+        "end": 22
+      }
+    ]
+  }
+}

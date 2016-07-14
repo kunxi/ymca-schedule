@@ -16,6 +16,9 @@ module.exports = {
       loaders: [ 'babel' ],
       query: { presets:['react'] },
       include: path.join(__dirname, 'src')
+    }, {
+      test: /\.json$/,
+      loader: 'json'
     } ]
   }
 }

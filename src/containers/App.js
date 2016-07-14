@@ -6,6 +6,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AwesomeBar from '../components/AwesomeBar'
 import TimeTable from '../components/TimeTable'
 import * as Actions from '../actions'
+import * as schedule from '../constants/schedule'
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
 injectTapEventPlugin();
@@ -17,7 +18,7 @@ class App extends Component {
       <MuiThemeProvider muiTheme={getMuiTheme()}>
         <div>
           <AwesomeBar place={place} selectPlace={actions.selectPlace} />
-          <TimeTable place={place} date={date}
+          <TimeTable place={place} date={date} schedule={schedule}
            nextDay={actions.nextDay} previousDay={actions.previousDay} />
         </div>
       </MuiThemeProvider>
