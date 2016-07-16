@@ -404,5 +404,243 @@
         "end": 22
       }
     ]
+  },
+  "activity_pool": {
+    "Monday": [
+      {
+        "title": "Swim Lessons",
+        "start": 8,
+        "end": 10.5
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 10.5,
+        "end": 15
+      },
+      {
+        "title": "Reserved for summer camp",
+        "start": 15,
+        "end": 15.5
+      },
+      {
+        "title": "Swim Lessons",
+        "start": 15.5,
+        "end": 19
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 19,
+        "end": 21.5
+      }
+    ],
+    "Tuesday": [
+      {
+        "title": "Water Walking Lazy River",
+        "start": 7,
+        "end": 10,
+        "width": 0.5
+      },
+      {
+        "title": "Swim Lessons",
+        "start": 8,
+        "end": 10.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 10.5,
+        "end": 12
+      },
+      {
+        "title": "Aqua (Arthritis & Injury)",
+        "start": 12,
+        "end": 13,
+        "width": 0.5
+      },
+      {
+        "title": "Beach Swim",
+        "start": 12,
+        "end": 13.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 13.5,
+        "end": 15
+      },
+      {
+        "title": "Reserved for summer camp",
+        "start": 15,
+        "end": 15.5
+      },
+      {
+        "title": "Swim Lessons",
+        "start": 15.5,
+        "end": 19
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 19,
+        "end": 21.5
+      }
+    ],
+    "Wednesday": [
+      {
+        "title": "Swim Lessons",
+        "start": 8,
+        "end": 10.5
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 10.5,
+        "end": 15
+      },
+      {
+        "title": "Reserved for summer camp",
+        "start": 15,
+        "end": 15.5
+      },
+      {
+        "title": "Swim Lessons",
+        "start": 15.5,
+        "end": 19
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 19,
+        "end": 21.5
+      }
+    ],
+    "Thursday": [
+      {
+        "title": "Water Walking Lazy River",
+        "start": 7,
+        "end": 10,
+        "width": 0.5
+      },
+      {
+        "title": "Swim Lessons",
+        "start": 8,
+        "end": 10.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 10.5,
+        "end": 12
+      },
+      {
+        "title": "Aqua (Arthritis & Injury)",
+        "start": 12,
+        "end": 13,
+        "width": 0.5
+      },
+      {
+        "title": "Beach Swim",
+        "start": 12,
+        "end": 13.5,
+        "left": 0.5,
+        "width": 0.5
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 13.5,
+        "end": 15
+      },
+      {
+        "title": "Reserved for summer camp",
+        "start": 15,
+        "end": 15.5
+      },
+      {
+        "title": "Swim Lessons",
+        "start": 15.5,
+        "end": 19
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 19,
+        "end": 21.5
+      }
+    ],
+    "Friday": [
+      {
+        "title": "Rec Swim w/o slide",
+        "start": 8,
+        "end": 11
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 11,
+        "end": 15.5
+      },
+      {
+        "title": "Pool Closed",
+        "start": 15.5,
+        "end": 16
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 16,
+        "end": 20.33
+      },
+      {
+        "title": "Teen Swim",
+        "start": 20.5,
+        "end": 21.5
+      }
+    ],
+    "Saturday": [
+      {
+        "title": "Swim Lessons",
+        "start": 9,
+        "end": 12
+      },
+      {
+        "title": "Reserved for Pool Parties",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 13,
+        "end": 15
+      },
+      {
+        "title": "Reserved for Pool Parties",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 16,
+        "end": 17.5
+      }
+    ],
+    "Sunday": [
+      {
+        "title": "Rec Swim w/o slide",
+        "start": 9.5,
+        "end": 11.5
+      },
+      {
+        "title": "Pool Closed",
+        "start": 11.5,
+        "end": 12.5
+      },
+      {
+        "title": "Rec Swim w/ slide",
+        "start": 12.5,
+        "end": 14.5
+      },
+      {
+        "title": "Community Swim",
+        "start": 14.5,
+        "end": 17.5
+      }
+    ]
   }
 }

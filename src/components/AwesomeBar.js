@@ -21,6 +21,7 @@ export default class AwesomeBar extends Component {
             <MenuItem value={"lap_pool"} primaryText="Lap Pool" />
             <MenuItem value={"kids_zone"} primaryText="Kids Zone" />
             <MenuItem value={"gymnasium"} primaryText="Gymnasium" />
+            <MenuItem value={"activity_pool"} primaryText="Activity Pool" />
           </DropDownMenu>
         }
         iconElementLeft={<IconButton><NavigationMenu /></IconButton>}
