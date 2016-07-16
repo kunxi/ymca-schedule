@@ -18,10 +18,10 @@ export default class AwesomeBar extends Component {
       <AppBar
         title={
           <DropDownMenu value={place} onChange={this.handlePlaceChange.bind(this)}>
-            <MenuItem value={"lap_pool"} primaryText="Lap Pool" />
             <MenuItem value={"kids_zone"} primaryText="Kids Zone" />
             <MenuItem value={"gymnasium"} primaryText="Gymnasium" />
             <MenuItem value={"activity_pool"} primaryText="Activity Pool" />
+            <MenuItem value={"lap_pool"} primaryText="Lap Pool" />
           </DropDownMenu>
         }
         iconElementLeft={<IconButton><NavigationMenu /></IconButton>}
