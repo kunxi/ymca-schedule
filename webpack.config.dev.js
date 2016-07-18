@@ -14,7 +14,8 @@ module.exports = {
     loaders: [ {
       test: /\.js$/,
       loaders: [ 'babel' ],
-      query: { presets:['react'] },
+      query: { presets:['react', 'es2015-webpack'] },
+      exclude: /node_modules/,
       include: path.join(__dirname, 'src')
     }, {
       test: /\.json$/,
