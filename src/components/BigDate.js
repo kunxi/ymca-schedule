@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import { lightBlue500 } from 'material-ui/styles/colors';
 
 const divStyle = {
@@ -20,25 +20,21 @@ const dayStyle = {
   fontSize: '150%',
 };
 
-export default class BigDate extends Component {
-  render() {
-    const { date } = this.props;
-    return (
-      <time dateTime="{date}" style={divStyle}>
-        <div>
-          {date.format('ddd')}
-        </div>
-        <div style={dayStyle}>
-          {date.format('DD')}
-        </div>
-        <div>
-          {date.format('MMM')}
-        </div>
-      </time>
-    );
-  }
-}
+const BigDate = ({ date }) =>
+  <time dateTime="{date}" style={divStyle}>
+    <div>
+      {date.format('ddd')}
+    </div>
+    <div style={dayStyle}>
+      {date.format('DD')}
+    </div>
+    <div>
+      {date.format('MMM')}
+    </div>
+  </time>;
 
 BigDate.propTypes = {
   date: PropTypes.object.isRequired,
 };
+
+export default BigDate;

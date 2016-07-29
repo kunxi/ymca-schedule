@@ -1,35 +1,30 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AwesomeBar from '../components/AwesomeBar';
-import TimeTable from '../components/TimeTable';
 import * as Actions from '../actions';
 import * as schedule from '../constants/schedule';
-import injectTapEventPlugin from 'react-tap-event-plugin';
+
+import AwesomeBar from '../components/AwesomeBar';
+import TimeTable from '../components/TimeTable';
 
 injectTapEventPlugin();
 
 
-class App extends Component {
-  render() {
-    const { place, date, actions } = this.props;
-    return (
-      <MuiThemeProvider muiTheme={getMuiTheme()}>
-        <div>
-          <AwesomeBar
-            place={place} selectPlace={actions.selectPlace}
-          />
-          <TimeTable
-            place={place} date={date} schedule={schedule}
-            nextDay={actions.nextDay} previousDay={actions.previousDay}
-          />
-        </div>
-      </MuiThemeProvider>
-    );
-  }
-}
+const App = ({ place, date, actions }) =>
+  <MuiThemeProvider muiTheme={getMuiTheme()}>
+    <div>
+      <AwesomeBar
+        place={place} selectPlace={actions.selectPlace}
+      />
+      <TimeTable
+        place={place} date={date} schedule={schedule}
+        nextDay={actions.nextDay} previousDay={actions.previousDay}
+      />
+    </div>
+  </MuiThemeProvider>;
 
 
 // Bind the state and actions to the props via redux
