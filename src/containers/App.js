@@ -10,6 +10,10 @@ import * as schedule from '../constants/schedule';
 import AwesomeBar from '../components/AwesomeBar';
 import TimeTable from '../components/TimeTable';
 
+
+// load the normalize.css globally
+import 'normalize.css'
+
 injectTapEventPlugin();
 
 

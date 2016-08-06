@@ -4,13 +4,15 @@
   "description": "A YMCA schedule viewer.",
   "main": "index.js",
   "scripts": {
-    "start": "node server.dev.js"
+    "start": "node server.dev.js --debug",
+    "build": "webpack -p"
   },
   "author": "Kun Xi",
   "license": "MIT",
   "dependencies": {
     "material-ui": "^0.15.0",
     "moment": "^2.13.0",
+    "normalize.css": "^4.2.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-redux": "^4.4.5",
@@ -24,10 +26,15 @@
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-es2015-webpack": "^6.4.1",
     "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
     "express": "^4.13.3",
+    "extract-text-webpack-plugin": "^2.0.0-beta.3",
     "html-webpack-plugin": "^2.21.0",
     "json-loader": "^0.5.4",
-    "webpack": "^2.1.0-beta.13",
+    "postcss": "^5.1.1",
+    "postcss-loader": "^0.9.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.1.0-beta.20",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.10.0"
   }
