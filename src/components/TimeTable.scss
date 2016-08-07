@@ -1,0 +1,24 @@
+#timetable {
+  width: 100%;
+  max-width: 100%;
+  td {
+    border-top: '1px solid #ccc';
+    padding: 1.25em;
+    width: auto;
+  }
+  th {
+    vertical-align: top;
+    padding-top: 4px;
+    width: 20%;
+    font-weight: 200px;
+    font-size: 90%;
+    color: #AAA;
+  }
+}
+
+.event {
+  border: 1px solid #aaa;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 10px;
+}

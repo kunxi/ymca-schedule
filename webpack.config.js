@@ -15,32 +15,51 @@ var config = {
     filename: '[name].[hash].js'
   },
   module: {
-    loaders: [{
-      test: /\.js$/,
-      loaders: [ 'babel' ],
-      query: { presets:['react', 'es2015'] },
-      exclude: /node_modules/,
-      include: path.join(__dirname, 'src')
-    }, {
-      test: /\.css$/,
-      loader: ExtractTextPlugin.extract({
-        loader: [
-          `css-loader?${JSON.stringify({
-              sourceMap: DEBUG,
-              // CSS Modules https://github.com/css-modules/css-modules
-              modules: true,
-              localIdentName: DEBUG ? '[name]_[local]_[hash:base64:3]' : '[hash:base64:4]',
-              // CSS Nano http://cssnano.co/options/
-              minimize: !DEBUG,
-          })}`,
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        loaders: [ 'babel' ],
+        query: {
+          babelrc: false,
+          presets: [
+            'react',
+            'es2015'
+          ]
+        },
+        exclude: /node_modules/,
+        include: path.join(__dirname, 'src')
+      },
+      {
+        test: /\.css$/,
+        loader: ExtractTextPlugin.extract({
+          loader: [
+            `css-loader?${JSON.stringify({
+                sourceMap: DEBUG,
+                // CSS Modules https://github.com/css-modules/css-modules
+                modules: true,
+                localIdentName: DEBUG ? '[name]_[local]_[hash:base64:3]' : '[hash:base64:4]',
+                // CSS Nano http://cssnano.co/options/
+                minimize: !DEBUG,
+            })}`,
+            'postcss-loader',
+          ],
+          fallbackLoader: 'style-loader',
+        })
+      },
+      {
+        test: /\.scss$/,
+        loaders: [
+          'style-loader',
+          `css-loader?${JSON.stringify({ sourceMap: DEBUG, minimize: !DEBUG })}`,
           'postcss-loader',
+          'sass-loader',
         ],
-        fallbackLoader: 'style-loader',
-      })
-    }, {
-      test: /\.json$/,
-      loader: 'json'
-    }]
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
+      }
+    ]
   },
   plugins: [
     new HtmlWebpackPlugin({ title: 'YMCA@Sammamish' }),
