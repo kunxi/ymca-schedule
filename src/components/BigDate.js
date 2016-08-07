@@ -5,7 +5,6 @@ const divStyle = {
   textTransform: 'uppercase',
   textAlign: 'center',
   background: 'rgba(255, 255, 255, 0.8)',
-  fontFamily: 'Roboto, sans-serif',
   fontSize: '120%',
   fontWeight: 500,
   color: lightBlue500,

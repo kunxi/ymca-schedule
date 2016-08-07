@@ -12,7 +12,8 @@ import TimeTable from '../components/TimeTable';
 
 
 // load the normalize.css globally
-import 'normalize.css'
+import 'normalize.css';
+import './App.css';
 
 injectTapEventPlugin();
 
