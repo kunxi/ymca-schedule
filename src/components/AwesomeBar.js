@@ -13,6 +13,7 @@ const AwesomeBar = ({ place, selectPlace }) =>
         <MenuItem value={"gymnasium"} primaryText="Gymnasium" />
         <MenuItem value={"activity_pool"} primaryText="Activity Pool" />
         <MenuItem value={"lap_pool"} primaryText="Lap Pool" />
+        <MenuItem value={"group_wellness"} primaryText="Group Wellness" />
       </DropDownMenu>
     }
     iconElementLeft={<IconButton><NavigationMenu /></IconButton>}

@@ -1,0 +1,171 @@
+{
+  "commment": "The group wellness classes are rendered as CR, RR, GF1, SG",
+  "Monday": [
+    ["Cycle", [5.5, 6.5], {"room": "CR", "comment": "Kathy", "width": 0.25}],
+    ["Yoga (Power)", [6, 7], {"room": "RR", "comment": "Antitha", "width": 0.25, "left": 0.25}],
+    ["P90X", [6, 7], {"room": "GF1", "comment": "Aimee", "width": 0.25, "left": 0.5}],
+
+    ["Aqua (All Levels)", [8, 9], {"room": "LP", "comment": "Pat", "width": 0.25}],
+    ["Yoga (Flow)", [8, 9], {"room": "RR", "comment": "Maribeth", "width": 0.25, "left": 0.25}],
+    ["Walking Group", [8, 9], {"room": "OS", "comment": "Vicki", "width": 0.25, "left": 0.5}],
+
+    ["Cycle", [9, 10], {"room": "CR", "comment": "Teresa", "width": 0.25}],
+    ["Mat Pilates", [9.25, 10.25], {"room": "RR", "comment": "Karen", "width": 0.25, "left": 0.25}],
+    ["Step & Strength", [9.33, 10.5], {"room": "GF1", "comment": "Avivit", "width": 0.25, "left": 0.5}],
+    ["Zumba", [9.5, 10.5], {"room": "SG", "comment": "Kim", "width": 0.25, "left": 0.75}],
+
+    ["Zumba Gold", [11, 11.917], {"room": "LG", "comment": "Diana", "width": 0.25, "left": 0.25}],
+    ["Barre Express", [10.75, 11.25], {"room": "GF1", "comment": "Kim", "width": 0.25, "left": 0.5}],
+    ["Bootcamp", [11.25, 12], {"room": "SG", "comment": "Stephanie", "width": 0.25, "left": 0.75}],
+
+    ["Core", [12, 12.5], {"room": "GF1", "comment": "Avivit", "width": 0.25, "left": 0.5}],
+    ["Family Yoga", [16.5, 17.25], {"room": "RR", "comment": "Trina", "width": 0.25, "left": 0.25}],
+
+    ["BollyWorks Fitness", [18, 18.75], {"room": "GF1", "comment": "Soumya", "width": 0.25, "left": 0.5}],
+    ["Bootcamp", [18, 18.75], {"room": "SG", "comment": "Mihaela", "width": 0.25, "left": 0.75}],
+
+    ["Aqua Zumba", [19, 20], {"room": "LP", "comment": "Jean", "width": 0.25}],
+    ["Tai Chi Intro", [19.25, 20.25], {"room": "RR", "comment": "Ross", "width": 0.25, "left": 0.25}],
+    ["Barre", [19, 20], {"room": "GF1", "comment": "Jamie", "width": 0.25, "left": 0.5}],
+    ["Zumba", [19, 20], {"room": "SG", "comment": "Jeanell", "width": 0.25, "left": 0.75}]
+  ],
+
+  "Tuesday": [
+    ["Bootcamp", [5.5, 6.5], {"room": "SG", "comment": "Karrie", "width": 0.25, "left": 0.75}],
+
+    ["Outdoor HIIT", [7, 7.75], {"room": "LB", "comment": "Katie", "width": 0.25}],
+
+    ["Power Cycle", [9.25, 10.25], {"room": "CR", "comment": "Paul", "width": 0.25}],
+    ["Turbo Kick", [9.75, 10.75], {"room": "LG", "comment": "Aimee", "width": 0.25, "left": 0.25}],
+    ["Yoga (Gental)", [9.5, 10.5], {"room": "GF1", "comment": "Sanjyot", "width": 0.25, "left": 0.5}],
+    ["Circuit", [9, 10], {"room": "SG", "comment": "Vicki", "width": 0.25, "left": 0.75}],
+
+    ["Bootcamp", [10.25, 11], {"room": "SG", "comment": "Holly", "width": 0.25, "left": 0.75}],
+
+    ["Yoga (All Levels)", [10.75, 11.75], {"room": "GF1", "comment": "Sanjyot", "width": 0.25, "left": 0.5}],
+    ["AOA Cardio", [11.25, 12], {"room": "SG", "comment": "Avivit", "width": 0.25, "left": 0.75}],
+
+    ["Aqua (Arthritis & Injury)", [12, 13], {"room": "AP", "comment": "Cheryl", "width": 0.25}],
+
+    ["Simple Strength", [17, 17.75], {"room": "GF1", "comment": "Teresa", "width": 0.25, "left": 0.5}],
+
+    ["Cycle", [18.75, 19.75], {"room": "CR", "comment": "Michelle", "width": 0.25}],
+    ["Yoga (Power)", [18.5, 19.5], {"room": "RR", "comment": "Sheetal P.", "width": 0.25, "left": 0.25}],
+    ["Mat Pilates", [18, 19], {"room": "GF1", "comment": "Leeza", "width": 0.25, "left": 0.5}],
+    ["Total Body Conditioning", [17.75, 18.75], {"room": "SG", "comment": "Vicki", "width": 0.25, "left": 0.75}],
+
+    ["Zumba", [19, 20], {"room": "SG", "comment": "Jean", "width": 0.25, "left": 0.75}]
+  ],
+
+  "Wednesday": [
+    ["Cycle", [5.5, 6.5], {"room": "CR", "comment": "Kathy", "width": 0.25}],
+    ["Yoga (Power)", [6, 7], {"room": "RR", "comment": "Antitha", "width": 0.25, "left": 0.25}],
+    ["P90X", [6, 7], {"room": "GF1", "comment": "Aimee", "width": 0.25, "left": 0.5}],
+
+    ["Running Groups", [7, 8], {"room": "OS", "comment": "Vicki", "width": 0.25}],
+
+    ["Aqua (All Levels)", [8, 9], {"room": "LP", "comment": "Pat", "width": 0.25}],
+    ["Movement, Rhythm & Conditioning", [8.08, 9], {"room": "GF1", "comment": "Liz", "width": 0.25, "left": 0.5}],
+
+    ["Cycle", [9, 10], {"room": "CR", "comment": "Teresa", "width": 0.25}],
+    ["Mat Pilates", [9.25, 10.25], {"room": "RR", "comment": "Karen", "width": 0.25, "left": 0.25}],
+    ["Step & Strength", [9.33, 10.5], {"room": "GF1", "comment": "Avivit", "width": 0.25, "left": 0.5}],
+    ["Zumba", [9.5, 10.5], {"room": "SG", "comment": "Kim", "width": 0.25, "left": 0.75}],
+
+    ["Bootcamp", [11, 11.75], {"room": "LG", "comment": "Cory", "width": 0.25}],
+    ["Core", [10.5, 11], {"room": "RR", "comment": "Teresa", "width": 0.25, "left": 0.25}],
+    ["AOA Strength", [11, 11.75], {"room": "GF1", "comment": "Vicki", "width": 0.25, "left": 0.5}],
+    ["Barre", [10.75, 11.75], {"room": "SG", "comment": "Kim", "width": 0.25,  "left": 0.75}],
+
+    ["Cycle Express", [12, 12.75], {"room": "CR", "comment": "Rebecca",  "width": 0.25}],
+    ["Yoga (Flow)", [12, 12.91], {"room": "RR", "comment": "Renee",  "width": 0.25, "left": 0.25}],
+
+    ["Cycle Express", [18, 18.75], {"room": "CR", "comment": "Kelly",  "width": 0.25}],
+    ["Yoga (All Levels)", [18.5, 19.75], {"room": "RR", "comment": "Karen", "width": 0.25, "left": 0.25}],
+    ["Cardio Strength", [17.75, 18.75], {"room": "GF1", "comment": "Margaret",  "width": 0.25, "left": 0.5}],
+    ["Bootcamp", [18, 18.75], {"room": "SG", "comment": "Mihaela", "width": 0.25, "left": 0.75}],
+
+    ["Aqua (All Levels)", [19, 20], {"room": "LP", "comment": "Natalie", "width": 0.25}],
+    ["Barre", [19, 20], {"room": "GF1", "comment": "Jamie", "width": 0.25, "left": 0.5}],
+    ["Zumba", [19, 20], {"room": "SG", "comment": "Jeanell", "width": 0.25, "left": 0.75}],
+
+    ["Tai Chi Advanced", [20.25, 21.25], {"room": "GF1", "comment": "Ross", "width": 0.25, "left": 0.5}]
+  ],
+
+  "Thursday": [
+    ["Bootcamp", [5.5, 6.5], {"room": "SG", "comment": "Karrie", "width": 0.25, "left": 0.75}],
+
+    ["Outdoor HIIT", [7, 7.75], {"room": "LB", "comment": "Katie", "width": 0.25}],
+    ["Yoga (All Levels)", [7.25, 8.25], {"room": "RR", "comment": "Katie", "width": 0.25, "left": 0.25}],
+
+    ["Cycle", [9, 10], {"room": "CR", "comment": "Besty",  "width": 0.25}],
+    ["Zumba", [9.75, 10.75], {"room": "LG", "comment": "Rachel", "width": 0.25, "left": 0.25}],
+    ["Yoga (Gentle)", [9.5, 10.5], {"room": "GF1", "comment": "Margaret",  "width": 0.25, "left": 0.5}],
+    ["HIIT", [9.25, 9.75], {"room": "SG", "comment": "Jenny", "width": 0.25, "left": 0.75}],
+
+    ["Mediation", [10.25, 10.75], {"room": "RR", "comment": "Maribeth", "width": 0.25}],
+    ["Yoga (All Levels)", [10.75, 11.75], {"room": "GF1", "comment": "Sanjyot",  "width": 0.25, "left": 0.5}],
+    ["Total Body Conditioning", [10, 10.75], {"room": "SG", "comment": "Vicki", "width": 0.25, "left": 0.75}],
+
+    ["Line Dancing", [11, 11.75], {"room": "SG", "comment": "Vicki", "width": 0.25, "left": 0.75}],
+
+    ["Aqua (Arthritis & Injury)", [12, 13], {"room": "AP", "comment": "Cheryl"}],
+
+    ["Zumba", [17, 18], {"room": "SG", "comment": "Jessica",  "width": 0.25, "left": 0.75}],
+    ["Simple Strength", [17, 17.75], {"room": "GF1", "comment": "Teresa",  "width": 0.25, "left": 0.5}],
+
+    ["Cycle", [18.75, 19.75], {"room": "CR", "comment": "Michelle", "width": 0.25}],
+    ["Yoga (Power)", [18, 19], {"room": "RR", "comment": "Sheetal P.",  "width": 0.25, "left": 0.25}],
+    ["Mat Pilates", [18, 19], {"room": "GF1", "comment": "Leaza",  "width": 0.25, "left": 0.5}],
+    ["Turbo Kick", [18.25, 19.25], {"room": "SG", "comment": "Aimee", "width": 0.25, "left": 0.75}],
+
+    ["Yoga (Yin)", [19.25, 20.25], {"room": "RR", "comment": "Sheetal P.",  "width": 0.25, "left": 0.25}],
+    ["Bollywood Fitness", [19.5, 20.5], {"room": "SG", "comment": "Sheetal S.",  "width": 0.25, "left": 0.75}]
+
+  ],
+
+  "Friday": [
+    ["Cycle", [5.5, 6.5], {"room": "CR", "comment": "Kathy", "width": 0.25}],
+    ["Yoga (Power)", [6, 7], {"room": "RR", "comment": "Antitha", "width": 0.25, "left": 0.25}],
+    ["Muscle Tone", [7, 7.5], {"room": "GF1", "comment": "Kathy", "width": 0.25, "left": 0.5}],
+
+    ["Cycle Express", [8.25, 9], {"room": "CR", "comment": "Margaret",  "width": 0.25}],
+    ["Aqua (All Levels)", [8, 9], {"room": "LP", "comment": "Pat", "width": 0.25, "left": 0.25}],
+
+    ["Circuit", [9, 10], {"room": "SG", "comment": "Avivit", "width": 0.25, "left": 0.75}],
+    ["Barre", [9.5, 10.5], {"room": "GF1", "comment": "Margaret", "width": 0.25, "left": 0.5}],
+
+    ["Mat Pilates", [10.75, 11.75], {"room": "RR", "comment": "Sarah", "width": 0.25, "left": 0.25}],
+    ["AOA Strength", [11, 11.75], {"room": "GF1", "comment": "Avivit", "width": 0.25, "left": 0.5}],
+    ["Bootcamp", [11, 12], {"room": "SG", "comment": "Cory", "width": 0.25, "left": 0.75}],
+
+    ["Mat Pilates", [16, 16.75], {"room": "GF1", "comment": "Karan", "width": 0.25, "left": 0.5}],
+
+    ["Yoga (Gentle)", [17.75, 18.75], {"room": "RR", "comment": "Aniha", "width": 0.25, "left": 0.25}],
+
+    ["Zumba", [19, 20], {"room": "GF1", "comment": "Laura", "width": 0.25, "left": 0.5}]
+  ],
+
+  "Saturday": [
+    ["Power Cycle", [8.5, 9.5], {"room": "CR", "comment": "Paul", "width": 0.25}],
+    ["Zumba", [9.5, 10.5], {"room": "LG", "comment": "Clairissa", "width": 0.25, "left": 0.25}],
+    ["Yoga (Slow Flow)", [9.5, 10.5], {"room": "GF1", "comment": "Tiffany", "width": 0.25, "left": 0.5}],
+    ["Bootcamp", [9, 9.75], {"room": "SG", "comment": "Mihaela",  "width": 0.25, "left": 0.75}],
+
+    ["Cycle", [9.75, 10.75], {"room": "CR", "comment": "Cornell", "width": 0.25}],
+    ["Yoga (Viniyoga)", [10.75, 11.75], {"room": "GF1", "comment": "Tiffany", "width": 0.25, "left": 0.5}],
+    ["Family Bootcamp", [10, 10.75], {"room": "SG", "comment": "Karrie",  "width": 0.25, "left": 0.75}],
+
+    ["Core", [11, 11.5], {"room": "RR", "comment": "Cornell", "width": 0.25, "left": 0.25}]
+  ],
+
+  "Sunday": [
+    ["Cycle", [8.5, 9.5], {"room": "CR", "comment": "Teresa", "width": 0.25}],
+    ["Yoga (Slow Flow)", [8.5, 9.5], {"room": "GF1", "comment": "Tiffany", "width": 0.25, "left": 0.5}],
+
+    ["Yoga (Viniyoga)", [9.75, 10.75], {"room": "GF1", "comment": "Tiffany", "width": 0.25, "left": 0.5}],
+    ["Core", [9.75, 10.25], {"room": "SG", "comment": "Teresa",  "width": 0.25, "left": 0.75}],
+
+    ["Zumba", [10.5, 11.5], {"room": "SG", "comment": "Yang",  "width": 0.25, "left": 0.75}]
+  ]
+}

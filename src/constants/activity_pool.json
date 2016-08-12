@@ -1,0 +1,58 @@
+{
+  "Monday": [
+    ["Swim Lessons", [8, 10.5]],
+    ["Rec Swim w/ slide", [10.5, 15]],
+    ["Reserved for summer camp", [15, 15.5]],
+    ["Swim Lessons", [15.5, 19]],
+    ["Rec Swim w/ slide", [19, 21.5]]
+   ],
+   "Tuesday": [
+    ["Water Walking Lazy River", [7, 10], {"width": 0.5}],
+    ["Swim Lessons", [8, 10.5], {"left": 0.5, "width": 0.5}],
+    ["Rec Swim w/ slide", [10.5, 12]],
+    ["Aqua (Arthritis & Injury)", [12, 13], {"width": 0.5}],
+    ["Beach Swim", [12, 13.5], {"left": 0.5, "width": 0.5}],
+    ["Rec Swim w/ slide", [13.5, 15]],
+    ["Reserved for summer camp", [15, 15.5]],
+    ["Swim Lessons", [15.5, 19]],
+    ["Rec Swim w/ slide", [19, 21.5]]
+  ],
+  "Wednesday": [
+    ["Swim Lessons", [8, 10.5]],
+    ["Rec Swim w/ slide", [10.5, 15]],
+    ["Reserved for summer camp", [15, 15.5]],
+    ["Swim Lessons", [15.5, 19]],
+    ["Rec Swim w/ slide", [19, 21.5]]
+  ],
+  "Thursday": [
+    ["Water Walking Lazy River", [7, 10], {"width": 0.5}],
+    ["Swim Lessons", [8, 10.5], {"left": 0.5, "width": 0.5}],
+    ["Rec Swim w/ slide", [10.5, 12]],
+    ["Aqua (Arthritis & Injury)", [12, 13], {"width": 0.5}],
+    ["Beach Swim", [12, 13.5], {"left": 0.5, "width": 0.5}],
+    ["Rec Swim w/ slide", [13.5, 15]],
+    ["Reserved for summer camp", [15, 15.5]],
+    ["Swim Lessons", [15.5, 19]],
+    ["Rec Swim w/ slide", [19, 21.5]]
+  ],
+  "Friday": [
+    ["Rec Swim w/o slide", [8, 11]],
+    ["Rec Swim w/ slide", [11, 15.5]],
+    ["Pool Closed", [15.5, 16]],
+    ["Rec Swim w/ slide", [16, 20.33]],
+    ["Teen Swim", [20.5, 21.5]]
+  ],
+  "Saturday": [
+    ["Swim Lessons", [9, 12]],
+    ["Reserved for Pool Parties", [12, 13]],
+    ["Rec Swim w/ slide", [13, 15]],
+    ["Reserved for Pool Parties", [15, 16]],
+    ["Rec Swim w/ slide", [16, 17.5]]
+  ],
+  "Sunday": [
+    ["Rec Swim w/o slide", [9.5, 11.5]],
+    ["Pool Closed", [11.5, 12.5]],
+    ["Rec Swim w/ slide", [12.5, 14.5]],
+    ["Community Swim", [14.5, 17.5]]
+  ]
+}
