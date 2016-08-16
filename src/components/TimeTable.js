@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react';
 import Swipeable from 'react-swipeable';
 import BigDate from './BigDate';
-import {red300, purple300, indigo300, blue300, cyan300,teal300,
-    green300, lime300, yellow300, amber300, orange300,
-    deepOrange300 } from 'material-ui/styles/colors';
+import {red400, purple400, indigo400, blue400, cyan400, teal400,
+    green400, lime400, deepOrange400, lightBlue400,
+    grey300 } from 'material-ui/styles/colors';
 import * as style from './TimeTable.scss';
 
 // The events are absolute positioned relative to the parent div
@@ -14,16 +14,23 @@ const divStyle = {
 
 // The color for each room
 const roomColors = {
-  CR: red300,
-  LG: purple300,
-  SG: indigo300,
-  LS: blue300,
-  GF1: cyan300,
-  GF2: teal300,
-  RR: green300,
-  AP: lime300,
-  LP: yellow300,
-  OS: orange300,
+  CR: indigo400,
+  RR: green400,
+  GF1: deepOrange400,
+  SG: purple400,
+
+  LG: lime400,
+  GF2: cyan400,
+  LS: teal400,
+
+  AP: lightBlue400,
+  LP: blue400,
+
+  OS: red400,
+};
+
+const widthLUT = {
+  group_wellness: 0.25,
 };
 
 function toPercent(n) {
@@ -32,7 +39,7 @@ function toPercent(n) {
   return `${f}%`;
 }
 
-const TimeTable = ({ date, schedule, nextDay, previousDay }) =>
+const TimeTable = ({ place, date, schedule, nextDay, previousDay }) =>
   <Swipeable
     onSwipedLeft={nextDay}
     onSwipedRight={previousDay}
@@ -72,13 +79,16 @@ const TimeTable = ({ date, schedule, nextDay, previousDay }) =>
           const [title, [start, end], options] = e;
           const meta = options || {};
           const left = toPercent((meta.left || 0.0) * 0.8 + 0.2);
-          const width = toPercent((meta.width || 1.0) * 0.8);
+          const width = toPercent(
+              (meta.width || widthLUT[place] || 1.0) * 0.8);
+
           const eventStyle = {
             top: `${start / 0.24}%`,
             left,
             width,
             height: `${(end - start) / 0.24}%`,
-            backgroundColor: roomColors[meta.room] || '#8FDAFF',
+            color: grey300,
+            backgroundColor: roomColors[meta.room] || indigo400,
           };
           return <div className="event" style={eventStyle}>{title}</div>;
         })
